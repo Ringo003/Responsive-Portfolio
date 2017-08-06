@@ -24,9 +24,7 @@ body{
 .nav1{
 	width:100%;
 	background:white;
-	color: white;
 	margin:5px;
-	margin-top:10px;
 	line-height:70px;
 
 }
@@ -37,7 +35,7 @@ body{
 	background:white; 
 	color:#009999;
 	margin:5px;	
-	height:700px;
+	height:1185px;
 	width: 350px;
 	float:left;
 
@@ -65,18 +63,75 @@ p{
 	background:grey;
 	color:white;
 	line-height:20px;
-	margin-top: 710px;
+	margin-top: 1200px;
 	text-align:center;
 
 
 }
 
-
-@media screen and (max-width: 640px) {
-   body}
-
-@media screen and (max-width: 768px) {
-  body }
-  
 @media screen and (max-width: 980px) {
-  body }
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 320px and below */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+
+/* Width at 168px and below */
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+}
